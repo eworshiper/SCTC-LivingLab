@@ -23,12 +23,12 @@ $menu_layanan  = $menu->layanan();
 <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dewi Bootstrap Template - Index</title>
+  <title>SCTC - Living Lab</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?php echo base_url() ?>/assets/dasbor/img/favicon.png" rel="icon">
+  <link href="<?php echo base_url() ?>/assets/upload/image/SCTC/Logo.png" rel="icon">
   <link href="<?php echo base_url() ?>/assets/dasbor/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -57,7 +57,7 @@ $menu_layanan  = $menu->layanan();
   <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">SCTC</a></h1>
+      <h1 class="logo"><img src="<?php echo base_url() ?>/assets/upload/image/SCTC/Logo.png"><a href="index.html" style="margin-left:10px;">SCTC</a></h1>
       
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->

@@ -5,7 +5,7 @@ if($session->get('username')=="") {
 	return redirect()->to(base_url('login'));
 }
 // gabungkan semua bagian file
-require_once('head.php');
+// require_once('head.php');
 require_once('header.php');
 require_once('menu.php');
 require_once('content.php');

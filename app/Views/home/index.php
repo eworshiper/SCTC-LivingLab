@@ -12,7 +12,11 @@ $layanan      = $menu->layanan();
   <section id="hero">
     <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
       <h1>SCTC Living Lab</h1>
+<<<<<<< HEAD
       <h2>Smart city ​Smart government</h2>
+=======
+      <h2>We are team of talented designers making websites with Bootstrap</h2>
+>>>>>>> 7474546edc4a794d1b90a8f0c9ea2863570db5cc
       <div class="d-flex">
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
         <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>

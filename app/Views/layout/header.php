@@ -98,6 +98,7 @@ $menu_layanan  = $menu->layanan();
             <li><a href="#">Software Development</a></li>
           </ul>
         </li>
+        <li><a class="nav-link scrollto active" href="#hero">News</a></li>
         <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>

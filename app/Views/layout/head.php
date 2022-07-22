@@ -1,9 +1,9 @@
-<!--  
+<?php
 
-?php 
 use App\Models\Konfigurasi_model;
-$konfigurasi  = new Konfigurasi_model;
-$site         = $konfigurasi->listing();
+
+$konfigurasi = new Konfigurasi_model;
+$site = $konfigurasi->listing();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,8 +17,8 @@ $site         = $konfigurasi->listing();
   <meta content="<?php echo $keywords ?>" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?php echo base_url('assets/upload/image/'.$site['icon']) ?>" rel="icon">
-  <link href="<?php echo base_url('assets/upload/image/'.$site['icon']) ?>" rel="apple-touch-icon">
+  <link href="<?php echo base_url('assets/upload/image/' . $site['icon']) ?>" rel="icon">
+  <link href="<?php echo base_url('assets/upload/image/' . $site['icon']) ?>" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -49,12 +49,14 @@ $site         = $konfigurasi->listing();
       border: solid thin #EEE;
       border-collapse: collapse;
     }
-    .table td, .table th {
+
+    .table td,
+    .table th {
       border: solid thin #EEE;
     }
   </style>
-   <!-- jQuery -->
-<script src="<?php echo base_url() ?>/assets/admin/plugins/jquery/jquery.min.js"></script>
+  <!-- jQuery -->
+  <script src="<?php echo base_url() ?>/assets/admin/plugins/jquery/jquery.min.js"></script>
 </head>
 
 <body>

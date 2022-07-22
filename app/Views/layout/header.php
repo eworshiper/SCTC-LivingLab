@@ -91,6 +91,13 @@ $menu_layanan  = $menu->layanan();
             <li><a href="#">Drop Down 4</a></li>
           </ul>
         </li>
+        <li class="dropdown"><a href="#"><span>Service</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Smart City</a></li>
+            <li><a href="#">Smart Government</a></li>
+            <li><a href="#">Software Development</a></li>
+          </ul>
+        </li>
         <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>

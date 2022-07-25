@@ -8,7 +8,6 @@ $profil       = $menu->profil();
 $layanan      = $menu->layanan();
 ?>
 
-<!-- ======= Hero Section ======= -->
 
 <!-- ======= Hero Section ======= -->
 <section id="hero">
